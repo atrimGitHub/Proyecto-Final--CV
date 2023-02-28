@@ -104,7 +104,7 @@ li, ul{
 }
 
 
-  aside {
+  aside.perfil {
     box-sizing: border-box; width: 800px; height: 800px;
     display: flex;
     background-color: var(--color-principal);
