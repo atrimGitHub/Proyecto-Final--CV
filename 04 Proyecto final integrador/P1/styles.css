@@ -50,7 +50,7 @@ h1 {
    
   }
    
-  header :h2 {
+  .profesión {
     text-align: right;
     color: white;
    }
@@ -60,13 +60,13 @@ h1 {
        background: #5c635c;
        color: aquamarine;
        padding: 10px 30px;
-     }
+    }
 
     .nav-enlace:hover {
         background: #bbb;
-      }
+    }
       
-      nav {
+    nav {
         display: flex;
         justify-content: space-around;
         padding-top: 20px;
@@ -75,7 +75,7 @@ h1 {
         padding-left: 30px;
         border-color: black;
         background-color: lightslategray;
-      }
+    }
 
 section.perfil {
     box-sizing: border-box; width: 400px; height: 800px;
