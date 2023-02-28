@@ -1,0 +1,29 @@
+* {
+    box-sizing: 1px; border-block-color: 1px;
+    margin: 0px;
+    padding: 0px;
+   }
+   header {
+    box-sizing: border-box; 
+    margin: 0px;
+    padding: 0px;
+    border-top: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    
+   }
+   ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+     }
+     li {
+        float: left;
+      }
+      
+      a {
+        display: block;
+        padding: 8px;
+        background-color: #dddddd;
+      }

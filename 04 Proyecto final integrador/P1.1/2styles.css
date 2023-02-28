@@ -1,0 +1,155 @@
+/* 
+   Archivo: estilos.css
+   Descripción: Archivo principal de estilos para el Curriculum Vitae
+*/
+
+/* Variables */
+:root {
+    --color-principal: #f8a60c;
+    --color-secundario: #110114;
+    --color-terciario: #5c635c;
+  }
+  
+  *h1,h2,h3 {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+  }
+   
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  *p {
+    font-family: 'Times New Roman', Times, serif; 
+    
+  }
+  
+  /* Encabezado */
+     header {
+      box-sizing: border-box; width: 1200px; height: 350px;
+      background-color: var(--color-terciario);
+      margin: 0px;
+      padding:20px;
+      border-style: solid;
+      border-top: 2px;
+      border-right: 2px;
+      border-bottom: 2px;
+      border-left: 2px;
+      border-color: black;
+      
+     }
+  
+    img{
+     width:135px ;
+     height: 142px;
+     padding: 35px;
+     
+    }
+     
+    header :h1 {
+      text-align: initial;
+      color: black;
+     }
+  
+    header :h2 {
+      text-align: right;
+      color: black;
+     }
+  
+     ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+       }
+  
+       li {
+          float: left;
+        }
+        
+        a {
+          display: flex;
+          padding-top: 20px;
+          padding-right: 30px;
+          padding-bottom: 20px;
+          padding-left: 30px;
+          border-radius: 1px;
+          border-color: black;
+          background-color: lightslategray;
+        }
+  
+        /* Adherir un borde gris a la lista de items, excepto el último item (last-child) */
+        li {
+          border-right: 1px solid #bbb;
+        }
+    
+        li:last-child {
+            border-right: none;
+        }
+   
+    /* Contenido */
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  
+    /* Sección de características */
+  
+  section.perfil {
+      box-sizing: border-box; width: 400px; height: 800px;
+      background-color: var(--color-secundario);
+    } 
+  
+  h2 {
+    font-style: normal;
+    color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  p {
+    font-style: normal;
+    font-size: 20px;
+    color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  li, ul{
+    font-style: normal;
+    font-size: 18px;
+    color: #f5f5f5;
+  }
+  
+   
+    /* Sección de trayectoria */
+  
+    aside {
+      box-sizing: border-box; width: 800px; height: 800px;
+      background-color: var(--color-principal);
+      margin: 0px;
+      padding:20px
+    }
+  
+    .experiencia {
+      display: flex;
+    }
+    
+    #main-aside {
+      display: grid;
+    }
+  
+    /* Pie de página */
+  footer {
+    background-color: var(--color-terciario);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
